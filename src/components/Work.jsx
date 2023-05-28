@@ -20,8 +20,11 @@ const Work = () => {
                 React & Node.js Application
               </p>
               <div className='pt-8 text-center'>
-                <a className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg' href='https://jonathandecatelle.github.io/frontendweb-pieter-2122-JonathanDeCatelle/' target="_blank" rel="noreferrer">
+                <a className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg' href='https://cockatils-v2.vercel.app/' target="_blank" rel="noreferrer">
                   Demo
+                </a>
+                <a className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg' href='https://github.com/JoNaTHaN2303/cockatils_v2' target="_blank" rel="noreferrer">
+                  Code
                 </a>
               </div>
             </div>

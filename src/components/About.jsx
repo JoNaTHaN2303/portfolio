@@ -20,7 +20,7 @@ const About = () => {
             </div>
             <div>
               <p className='text-lg'>
-                My name is Jonathan De Catelle, I am 20 years old and I study Computer Science. 
+                My name is Jonathan De Catelle, I am 21 years old and I study Computer Science. 
                 I have a great passion for programming and I also love playing around with electronics. 
                 Besides IT I also love playing football. 
                 I am a inovative person and i am very flexibel. 
