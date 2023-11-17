@@ -1,16 +1,5 @@
 import React from 'react';
 
-import HTML from '../assets/html.png';
-import CSS from '../assets/css.png';
-import JavaScript from '../assets/javascript.png';
-import ReactImg from '../assets/react.png';
-import Node from '../assets/node.png';
-import GitHub from '../assets/github.png';
-import Tailwind from '../assets/tailwind.png';
-import SQL from '../assets/sql.png';
-import Python from '../assets/python.png';
-import Java from '../assets/java.png';
-
 const Education = () => {
   return (
     <div name='education' className='w-full min-h-screen text-[#FFFFFF] bg-[#292929] flex justify-center items-center'>
