@@ -14,11 +14,11 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-[100px] h-full flex flex-col justify-between items-center bg-[#292929] text-[#FFFFFF] border-r-2 border-[#616161]'>
-      <div className='hidden md:flex flex-col p-6 text-lg'>
-        <Link to='home' smooth={true} className="flex group hover:cursor-pointer px-2 duration-500">
+    <div className='fixed w-[100px] h-full flex flex-col justify-between items-center border-r-2 border-[#616161]'>
+      <div className='relative p-6 text-lg'>
+        <Link to='home' smooth={true} className='flex group hover:cursor-pointer px-2 duration-500'>
           <FaHome size={30}/>
-          <div className='z-0 group-hover:ml-[100px] absolute w-0 duration-500'>
+          <div className='absolute ml-0 group-hover:ml-[100px] duration-500'>
             Home
           </div>
         </Link>
@@ -37,7 +37,7 @@ const Navbar = () => {
           <LuMailbox size={30}/>
         </Link> 
       </div>
-      <div className='hidden md:flex flex-col'>
+      <div className='hidden md:flex flex-col p-6'>
         <div className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-0 duration-300 bg-blue-600 p-4'>
           <a className='flex justify-between items-center w-full text-[#FFFFFF]' href='https://www.linkedin.com/in/jonathan-de-catelle-9399b620b/' target="_blank" rel="noreferrer">
             Linkedin <FaLinkedin size={30} />

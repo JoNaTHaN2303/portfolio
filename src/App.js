@@ -7,7 +7,7 @@ import Work from "./components/Work";
 
 function App() {
   return (
-    <div className="flex bg-[#292929]">
+    <div className="flex bg-[#292929] text-[#FFFFFF]">
       <div className="w-[80px]">
         <Navbar />
       </div>

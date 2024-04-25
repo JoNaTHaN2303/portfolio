@@ -2,7 +2,7 @@ import React from 'react';
 
 const Education = () => {
   return (
-    <div name='education' className='w-full min-h-screen text-[#FFFFFF] bg-[#292929] flex justify-center items-center'>
+    <div name='education' className='w-full min-h-screen flex justify-center items-center'>
       {/* <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div>
           <p className='text-4xl font-bold inline border-b-4 border-pink-600 '>Education</p>
